@@ -1,0 +1,49 @@
+body{
+    background-color:aqua;
+}
+.login{
+    width:360px ;
+    height:320px ;
+    background-color:white ;
+    border-radius:10px ;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: blue;
+    margin-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    font-weight:bolder;
+    display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+}
+input{
+    width: 100%;
+    padding: 7px;
+    border:1px solid grey;
+    border-radius: 10px; 
+    outline:none;
+}
+input[type = "submit"]
+{
+    width:315px;
+    height:35px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+p{
+    text-align: center;
+    font-weight: bolder;
+}
+a{
+    color: blue;
+    font-weight: bolder;
+}
