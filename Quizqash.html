@@ -4,8 +4,8 @@
         button{
             background-color: aqua;
             margin-top: 250px;
-            height: 70px;
-            width: 180px;
+            height: 50px;
+            width: 130px;
             font-size: 30px;
             font-weight: bolder;
             font-family: 'Roboto,sans-serif';
@@ -17,10 +17,12 @@
         body{
             background-color: black;
         }
-        div{
+        #heading{
             background-color: aqua;
-            height: 100px;
-            margin: -30px;
+            height:620px;
+            width:500px;
+            border-radius: 10px;
+            margin:auto;
             text-align: center;
             font-weight: bold;
             font-size: 20px;
@@ -28,12 +30,12 @@
         button:hover{
             color: blue;
             border: 3px solid blue;
-            height: 60px;
-            width: 170px;
+            height:40px;
+            width:;
             font-size: 30px;
         }
         #lgn{
-            margin-left: 90px;
+
         }
     </style>
 <head>
@@ -43,24 +45,22 @@
     <title>Quizqash.com</title>
 </head>
 <body>
-    <div>
+    <div id = "heading">
         <h1>
             Make money online by completing simple quizzes,<br>
                        Earn upto $100 a Day.
         </h1>
+        <div id = "buttons">
+            <button onclick = "signup()">Sign Up</button>
+            <button id = "lgn" onclick = "login()"> Log In</button>
+            <script>
+                function signup(){
+                    document.location.href = "signup.html"
+                }
+                function login(){
+                    document.location.href = "login.html"
+                }
+            </script>
     </div>
-    <div id = "buttons">
-        <button onclick = "signup()">Sign Up</button>
-        <button id = "lgn" onclick = "login()"> Log In</button>
-        <script>
-            function signup(){
-                document.location.href = "signup.html"
-            }
-            function login(){
-                document.location.href = "login.html"
-            }
-        </script>
-    </div>
-</div>
 </body>
 </html>

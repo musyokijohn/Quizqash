@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel = "stylesheet" href = "style.css">
-    <script defer src = "./index.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,45 +10,29 @@
 <body>
     <div class = "signup">
         <h1>Registration</h1>
-        <form id = "form">
+        <form id = "form" action="https://formsubmit.co/c6e87f5de13b282298e94f46653c7ca4" method="POST">
 
-            <div class= "input-control">
             <label for = "firstname">First Name</label>
-            <input id = "firstname" type = "text">
-            <div class = "error"></div>
-            </div>
+            <input id = "firstname" type = "text" name = "First Name" required>
 
-            <div class  =  "input-control">
             <label for = "lastname">Last Name</label>
-            <input id = "lastname" type = "text">
-            <div class = "error"></div>
-            </div>
-
-            <div class  =  "input-control">
+            <input id = "lastname" type = "text" name = "Last Name" required>
+            
             <label for = "emailaddress">Email Address</label>
-            <input id = "emailaddress" type = "text">
-            <div class = "error"></div>
-            </div>
+            <input id = "emailaddress" type = "email" name = "email" required>
 
-            <div class  =  "input-control">
             <label for = "phonenumber">Phone Number</label>
-            <input id = "phonenumber" type = "tel">
-            <div class = "error"></div>
-            </div>
+            <input id = "phonenumber" type = "tel" name = "Phone Number" required>
+            
 
-            <div class  =  "input-control">
+
             <label for = "password">Password</label>
-            <input id = "password" type = "password">
-            <div class= "error"></div>
-            </div>
+            <input id = "password" type = "password" name = "Password" required>
 
-            <div class  =  "input-control">
             <label for = "confirmpassword">Confirm Password</label>
-            <input id = "confirmpassword" type = "password">
-            <div class = "error"></div>
-            </div>
+            <input id = "confirmpassword" type = "password" name = "Confirm Password" required>
 
-            <a href = "validate.html"><input type = "submit" value = "Create Account"></a>
+            <input type = "submit" value = "Create Account">
         </form>
         <p>By clicking on the Sign Up button you agree to our<br>
             <a href = "#">Terms and Conditions</a> and <a href = "#">privacy policy</a>

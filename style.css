@@ -1,4 +1,5 @@
 body{
+    overflow-x: hidden;
     background-color: aqua;
     font-family: 'Roboto,sans-serif';
 }
@@ -58,4 +59,7 @@ a{
     color:#ff3860;
     font-size: 9px;
     height: 13px;
+}
+input:focus{
+    background:#659EC7;
 }
